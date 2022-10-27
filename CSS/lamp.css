@@ -16,49 +16,51 @@ body{
     background-color: black;
 
 }
-header{
+.cabecalho{
     width: 500px;
     margin: auto;
-    background-color: rgba(224, 8, 87, 0.403);
-    color: aliceblue;
+    background-color: rgba(254, 252, 252, 0.064);
+    color: rgba(230, 185, 5, 0.93);
+    font-family: garamond;
     text-align: center;
-    border-radius: 50px;
+    border-radius: 10px;
     margin-bottom: 20px;
-    border: 2px solid rgb(224, 8, 87);
-    box-shadow: 0px 10px 1px rgb(224, 8, 87);
+    border: 1px solid rgb(88, 83, 3);
+    box-shadow: 0px 10px 5px rgb(41, 32, 5);
 }
 figure{
     display: flex;
     justify-content: center;
     align-items: center;   
 }
-figure img{
-    border: 3px solid rgb(158, 4, 53);
-    border-radius: 45px;
-}
-.btn{
+    .btn{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 52px;
+    margin-top: 30 px;
 
 }
 .efeito{
     border: none;
-    color: white;
-    padding: 20px;
+    color: black;
+    padding: 10px;
     margin: 10px;
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 20px;
+    font-family: 'fasthand', cursive;
     border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.437);
     position: relative;
     box-sizing: border-box;
     cursor: pointer;
+    background-color:rgb(97, 95, 95);
+    box-shadow: 0px 3px 3px rgb(217, 212, 212);
     
-}
-.efeito-1{
-    background-color: #28348a;
 }
 .efeito-1:hover{
     animation: bounce 1s;
+}
+.efeito:active{
+    box-shadow: 2px 2px 1px red, inset 2px 2px 1px yellow;
+    position: relative;
+    top: 5px;
 }

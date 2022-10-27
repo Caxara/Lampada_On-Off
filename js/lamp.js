@@ -5,10 +5,12 @@ btn.onclick = function(){
     if(btn.value == 'Acender'){
         lamp.src = 'img/LampaOn1.jpg';
         btn.value = 'Apagar';
-        btn.innerHTML = 'Apagar';
+        btn.innerHTML = 'On';
+        btn.style.background = 'green';
     }else {
         lamp.src = 'img/LampOff1.jpg'
         btn.value = 'Acender';
-        btn.innerHTML = 'Acender';
+        btn.innerHTML = 'Off';
+        btn.style.background = 'red';
     }
 }

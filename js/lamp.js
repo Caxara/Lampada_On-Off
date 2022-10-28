@@ -3,12 +3,12 @@ var lamp = document.getElementById('lamp');
 
 btn.onclick = function(){
     if(btn.value == 'Acender'){
-        lamp.src = 'img/LampaOn1.jpg';
+        lamp.src = 'img/fotoOn.jpg';
         btn.value = 'Apagar';
         btn.innerHTML = 'On';
         btn.style.background = 'green';
     }else {
-        lamp.src = 'img/LampOff1.jpg'
+        lamp.src = 'img/fotoOff.jpg'
         btn.value = 'Acender';
         btn.innerHTML = 'Off';
         btn.style.background = 'red';

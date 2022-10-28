@@ -8,7 +8,7 @@ btn.onclick = function(){
         btn.innerHTML = 'On';
         btn.style.background = 'green';
     }else {
-        lamp.src = 'img/fotoOff.jpg'
+        lamp.src = 'img/fotoOff.jpg';
         btn.value = 'Acender';
         btn.innerHTML = 'Off';
         btn.style.background = 'red';

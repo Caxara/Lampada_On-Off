@@ -1,3 +1,5 @@
+/*CONFIGURAÇÃO DO MOVIMENTO DO BOTÃO */
+
 @keyframes bounce {
     0%, 50%, 100% {
         -webkit-transform: translateX(0);
@@ -12,12 +14,13 @@
         transform: translateX(100%);
     }
 }
+
 body{
     background-color: black;
-
 }
 .cabecalho{
     width: 500px;
+    height: auto;
     margin: auto;
     background-color: rgba(254, 252, 252, 0.064);
     color: rgba(230, 185, 5, 0.93);
@@ -28,12 +31,17 @@ body{
     border: 1px solid rgb(88, 83, 3);
     box-shadow: 0px 10px 5px rgb(41, 32, 5);
 }
+
+/*COMFIGURAÇÃO DA LÂMPADA */
+
 figure{
     display: flex;
     justify-content: center;
     align-items: center;   
 }
-    .btn{
+/*CONFIGURAÇÃO DO BOTÃO ON/OFF */
+
+.btn{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,4 +71,20 @@ figure{
     box-shadow: 2px 2px 1px red, inset 2px 2px 1px yellow;
     position: relative;
     top: 5px;
+}
+
+/*CONFIGURAÇÃO DO RODAPÉ*/
+
+footer{
+    background-color: rgba(254, 252, 252, 0.064);
+    color: rgba(230, 185, 5, 0.93);
+    text-align: center;
+    font-family: 'fasthand' cursive;
+    font-style: italic;
+    font-size: 20px;
+    width: 150px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 3px 3px rgb(97, 95, 95);
+    
 }
